@@ -1,1 +1,274 @@
-[]
+[
+  {
+    "id": "electrical-automation-engineer",
+    "title": "Electrical & Automation Engineer",
+    "department": "Engineering Solutions",
+    "location": "Mufulira, Copperbelt, Zambia",
+    "employmentType": "Full-time",
+    "experience": "3+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-15",
+    "description": "Lead the design, installation, and commissioning of electrical control systems and industrial automation solutions for clients across mining, manufacturing, and commercial sectors. You'll be the technical backbone of our Engineering Solutions team, translating client requirements into safe, reliable, and efficient systems.",
+    "responsibilities": [
+      "Design and size electrical control panels, distribution boards, and protection schemes",
+      "Program and commission PLCs, HMIs, and SCADA systems for industrial clients",
+      "Configure and troubleshoot variable frequency drives (VFDs) and motor control systems",
+      "Carry out site surveys, load calculations, and technical proposals for new projects",
+      "Supervise installation teams and ensure work meets electrical safety codes",
+      "Prepare as-built drawings, test reports, and commissioning documentation",
+      "Provide technical mentorship to junior engineers and technicians"
+    ],
+    "requirements": [
+      "Bachelor's degree or Diploma in Electrical/Electronics Engineering or Industrial Automation",
+      "3+ years of hands-on experience with PLC programming (Siemens, Allen-Bradley, or similar)",
+      "Solid understanding of power distribution, protection relays, and control panel design",
+      "Experience with SCADA platforms and industrial networking (Modbus, Profibus, Ethernet/IP)",
+      "Valid driver's license and willingness to travel to client sites",
+      "Strong report-writing and client communication skills",
+      "Registration with EIZ (Engineering Institution of Zambia) is an added advantage"
+    ]
+  },
+  {
+    "id": "industrial-automation-technician",
+    "title": "Industrial Automation Technician",
+    "department": "Automation Systems",
+    "location": "Copperbelt Province, Zambia",
+    "employmentType": "Full-time",
+    "experience": "2+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-20",
+    "description": "Support the installation, wiring, and maintenance of automation systems on client sites, working closely with our engineering team to keep production lines and control systems running reliably.",
+    "responsibilities": [
+      "Install and wire control panels, sensors, actuators, and field instrumentation",
+      "Assist with PLC I/O testing, loop checks, and system commissioning",
+      "Perform routine preventive maintenance on automated equipment",
+      "Diagnose and repair faults on control circuits and automated machinery",
+      "Maintain accurate maintenance logs and spare-parts records",
+      "Follow lockout-tagout and site safety procedures at all times"
+    ],
+    "requirements": [
+      "Diploma or Trade Certificate in Electrical, Instrumentation, or Automation Engineering",
+      "2+ years of experience in panel wiring, instrumentation, or industrial maintenance",
+      "Basic knowledge of PLC/HMI systems and control circuit reading",
+      "Comfortable working at heights, in confined spaces, and on active industrial sites",
+      "Good physical fitness and a strong safety mindset",
+      "Own basic hand tools and PPE is an advantage"
+    ]
+  },
+  {
+    "id": "renewable-energy-engineer",
+    "title": "Renewable Energy (Solar) Engineer",
+    "department": "Renewable Energy",
+    "location": "Mufulira, Copperbelt, Zambia",
+    "employmentType": "Full-time",
+    "experience": "2+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-10",
+    "description": "Design and deliver solar PV and hybrid power solutions for residential, commercial, and industrial clients, from initial site assessment through to installation and handover.",
+    "responsibilities": [
+      "Conduct site assessments and energy audits to size solar PV and battery systems",
+      "Design grid-tied, off-grid, and hybrid solar systems using industry design software",
+      "Prepare technical proposals, single-line diagrams, and bills of materials",
+      "Supervise installation of panels, inverters, battery banks, and mounting structures",
+      "Commission systems and train clients on operation and monitoring",
+      "Ensure all installations comply with relevant electrical and safety standards"
+    ],
+    "requirements": [
+      "Diploma or Degree in Electrical Engineering or Renewable Energy Systems",
+      "2+ years of experience designing or installing solar PV systems",
+      "Familiarity with inverter brands such as Victron, Deye, Growatt, or similar",
+      "Working knowledge of solar design tools (PVsyst, AutoCAD, or equivalent)",
+      "Strong understanding of battery storage technologies (lithium and lead-acid)",
+      "Willingness to travel for site surveys and installations"
+    ]
+  },
+  {
+    "id": "network-security-engineer",
+    "title": "Network & Security Systems Engineer",
+    "department": "Security & Networks",
+    "location": "Mufulira, Copperbelt, Zambia",
+    "employmentType": "Full-time",
+    "experience": "3+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-18",
+    "description": "Design, deploy, and maintain structured networks, CCTV, and access control systems for commercial and industrial clients, ensuring their sites are connected, monitored, and secure.",
+    "responsibilities": [
+      "Design and install structured cabling, LAN/WAN networks, and wireless infrastructure",
+      "Configure switches, routers, and firewalls for client networks",
+      "Install and configure CCTV, access control, and intrusion detection systems",
+      "Set up remote monitoring and video management platforms",
+      "Perform network audits and recommend security improvements",
+      "Provide after-installation support and troubleshoot connectivity issues"
+    ],
+    "requirements": [
+      "Diploma or Degree in Computer/Network Engineering, IT, or related field",
+      "3+ years of experience in structured cabling and network installation",
+      "Hands-on experience with CCTV and access control systems (Hikvision, Dahua, or similar)",
+      "Networking certification (CCNA or equivalent) preferred",
+      "Understanding of IP networking, VLANs, and basic firewall configuration",
+      "Strong troubleshooting skills and a customer-focused attitude"
+    ]
+  },
+  {
+    "id": "ict-technical-support",
+    "title": "ICT & Technical Support Specialist",
+    "department": "Technology Solutions",
+    "location": "Mufulira, Copperbelt, Zambia",
+    "employmentType": "Full-time",
+    "experience": "1+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-25",
+    "description": "Be the first point of contact for client technology needs — setting up hardware, software, and basic networks, and resolving day-to-day IT issues for our growing client base.",
+    "responsibilities": [
+      "Install, configure, and troubleshoot desktops, laptops, printers, and peripherals",
+      "Set up business software, email systems, and basic office networks",
+      "Provide first-line technical support to clients by phone, remote access, or on-site",
+      "Maintain an inventory of equipment, licenses, and support tickets",
+      "Assist engineers with technology components of larger automation and security projects",
+      "Document recurring issues and contribute to internal knowledge base"
+    ],
+    "requirements": [
+      "Diploma or Certificate in Information Technology or Computer Science",
+      "1+ years of experience in IT support or helpdesk roles",
+      "Working knowledge of Windows, basic networking, and common office software",
+      "Excellent problem-solving skills and patience with non-technical clients",
+      "Good communication skills in English",
+      "A+ / N+ certification is an added advantage"
+    ]
+  },
+  {
+    "id": "project-engineer",
+    "title": "Project Engineer",
+    "department": "Project Management",
+    "location": "Copperbelt Province, Zambia",
+    "employmentType": "Full-time",
+    "experience": "4+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-12",
+    "description": "Plan and coordinate multidisciplinary engineering projects from consultation through to commissioning, keeping scope, budget, and schedule on track while liaising with clients and site teams.",
+    "responsibilities": [
+      "Develop project plans, timelines, and resource schedules for engineering projects",
+      "Coordinate between engineering, procurement, and installation teams",
+      "Track project budgets, variations, and progress against milestones",
+      "Serve as the primary point of contact for clients during project execution",
+      "Conduct site progress meetings and prepare status reports",
+      "Ensure projects are delivered safely, on time, and to specification"
+    ],
+    "requirements": [
+      "Degree in Engineering (Electrical, Mechanical, or Industrial) or Project Management",
+      "4+ years of experience managing technical or construction-related projects",
+      "Strong organizational skills and experience with project scheduling tools",
+      "Excellent written and verbal communication skills",
+      "Ability to manage multiple concurrent projects and competing priorities",
+      "PMP or similar project management certification is an added advantage"
+    ]
+  },
+  {
+    "id": "field-service-engineer",
+    "title": "Field Service & Maintenance Engineer",
+    "department": "Maintenance",
+    "location": "Copperbelt Province, Zambia (travel required)",
+    "employmentType": "Full-time",
+    "experience": "2+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-22",
+    "description": "Deliver on-site maintenance, fault-finding, and repair services for automation, electrical, and equipment installations under active service contracts with our clients.",
+    "responsibilities": [
+      "Respond to client call-outs for equipment faults and breakdowns",
+      "Carry out scheduled preventive maintenance visits per service contracts",
+      "Diagnose electrical, mechanical, and control system faults on site",
+      "Order and manage spare parts for repairs and maintenance work",
+      "Complete service reports and update client maintenance histories",
+      "Recommend upgrades or improvements based on equipment condition"
+    ],
+    "requirements": [
+      "Diploma in Electrical, Mechanical, or Mechatronics Engineering",
+      "2+ years of experience in field service, plant maintenance, or equipment repair",
+      "Strong fault-finding skills across electrical and mechanical systems",
+      "Valid driver's license and willingness to travel extensively within the region",
+      "Ability to work independently and manage time across multiple client sites",
+      "Good communication skills for client-facing service visits"
+    ]
+  },
+  {
+    "id": "instrumentation-control-engineer",
+    "title": "Instrumentation & Control Engineer",
+    "department": "Engineering Solutions",
+    "location": "Mufulira, Copperbelt, Zambia",
+    "employmentType": "Full-time",
+    "experience": "3+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-14",
+    "description": "Specify, calibrate, and integrate process instrumentation and control loops for industrial clients, ensuring accurate measurement and reliable automatic control across their operations.",
+    "responsibilities": [
+      "Specify and select field instrumentation (flow, level, pressure, temperature)",
+      "Calibrate and commission instruments and control loops",
+      "Develop control narratives and loop diagrams for new installations",
+      "Integrate instrumentation with PLC/SCADA systems",
+      "Troubleshoot instrumentation and control loop faults on site",
+      "Support hazardous area classification and compliance where required"
+    ],
+    "requirements": [
+      "Degree or Diploma in Instrumentation, Electrical, or Control Systems Engineering",
+      "3+ years of experience in process instrumentation and control",
+      "Practical knowledge of 4-20mA, HART, and digital fieldbus protocols",
+      "Experience calibrating and maintaining industrial instrumentation",
+      "Understanding of P&IDs and control loop documentation",
+      "Strong attention to detail and a methodical approach to fault-finding"
+    ]
+  },
+  {
+    "id": "business-development-engineer",
+    "title": "Business Development Engineer",
+    "department": "Sales & Business Development",
+    "location": "Mufulira, Copperbelt, Zambia",
+    "employmentType": "Full-time",
+    "experience": "3+ years",
+    "salary": "Negotiable, base + commission",
+    "deadline": "2026-09-28",
+    "description": "Drive growth for SEAW by identifying new business opportunities, building client relationships, and translating technical capabilities into winning proposals across our five service lines.",
+    "responsibilities": [
+      "Identify and pursue new business opportunities across target industries",
+      "Build and maintain relationships with key clients, contractors, and suppliers",
+      "Prepare technical and commercial proposals in collaboration with engineering teams",
+      "Represent SEAW at industry events, tenders, and client meetings",
+      "Track the sales pipeline and report on business development performance",
+      "Gather market intelligence to inform service and product offerings"
+    ],
+    "requirements": [
+      "Degree in Engineering, Business, or a related technical field",
+      "3+ years of experience in technical sales or business development, ideally in engineering or industrial services",
+      "Ability to understand and communicate technical solutions to non-technical clients",
+      "Strong negotiation, presentation, and proposal-writing skills",
+      "Existing network within mining, manufacturing, or commercial sectors is an advantage",
+      "Valid driver's license and willingness to travel"
+    ]
+  },
+  {
+    "id": "hse-officer",
+    "title": "Health, Safety & Environment (HSE) Officer",
+    "department": "Health & Safety",
+    "location": "Copperbelt Province, Zambia (site-based)",
+    "employmentType": "Full-time",
+    "experience": "2+ years",
+    "salary": "Negotiable, based on experience",
+    "deadline": "2026-09-16",
+    "description": "Champion a strong safety culture across all SEAW project sites, ensuring installation, automation, and maintenance work is carried out safely and in line with regulatory requirements.",
+    "responsibilities": [
+      "Conduct site risk assessments and develop method statements for project work",
+      "Carry out toolbox talks, safety inductions, and routine site inspections",
+      "Monitor compliance with PPE, lockout-tagout, and working-at-height procedures",
+      "Investigate incidents and near-misses, and recommend corrective actions",
+      "Maintain HSE documentation and statutory compliance records",
+      "Advise project and engineering teams on safe systems of work"
+    ],
+    "requirements": [
+      "Diploma or Certificate in Occupational Health and Safety or related field",
+      "2+ years of experience in an HSE role, ideally in construction, mining, or industrial settings",
+      "Working knowledge of Zambian occupational health and safety regulations",
+      "Strong observation skills and the confidence to enforce safety standards",
+      "Excellent communication and report-writing skills",
+      "NEBOSH certification or equivalent is an added advantage"
+    ]
+  }
+]

@@ -208,10 +208,10 @@ section{ scroll-margin-top:84px; }
 .svc-card.cta-card{ cursor:default; }
 
 /* ============== STORY VIEWER (services + legal) ============== */
-.story-overlay{ position:fixed; inset:0; z-index:2000; background:rgba(5,7,11,0.86); display:none; align-items:center; justify-content:center; padding:26px; backdrop-filter:blur(6px); }
+.story-overlay{ position:fixed; inset:0; z-index:2000; background:rgba(5,7,11,0.86); display:none; align-items:center; justify-content:center; padding:26px; backdrop-filter:blur(6px); box-sizing:border-box; }
 .story-overlay.open{ display:flex; animation:storyBgIn .35s ease both; }
 @keyframes storyBgIn{ from{ opacity:0; } to{ opacity:1; } }
-.story-shell{ position:relative; width:100%; max-width:460px; height:min(820px,92vh); background:#0b0f15; border-radius:26px; overflow:hidden; box-shadow:0 40px 90px -20px rgba(0,0,0,0.6); display:flex; flex-direction:column; opacity:0; transform:translateY(24px) scale(.97); animation:storyPop .45s cubic-bezier(.2,.9,.2,1) forwards; }
+.story-shell{ position:relative; width:100%; max-width:460px; height:min(820px,92vh); max-height:100%; background:#0b0f15; border-radius:26px; overflow:hidden; box-shadow:0 40px 90px -20px rgba(0,0,0,0.6); display:flex; flex-direction:column; opacity:0; transform:translateY(24px) scale(.97); animation:storyPop .45s cubic-bezier(.2,.9,.2,1) forwards; }
 @keyframes storyPop{ to{ opacity:1; transform:translateY(0) scale(1); } }
 .story-progress{ position:absolute; top:14px; left:14px; right:14px; z-index:30; display:flex; gap:5px; }
 .story-progress .seg{ flex:1; height:3px; border-radius:3px; background:rgba(255,255,255,0.25); overflow:hidden; }
@@ -273,7 +273,11 @@ section{ scroll-margin-top:84px; }
 .story-footerbar .arrow svg{ width:16px; height:16px; }
 .story-footerbar .btn{ flex:1; justify-content:center; }
 @media (prefers-reduced-motion:reduce){ .story-media img{ animation:none; } .story-text h3,.story-text p,.story-list li,.story-steps .sstep{ animation:none; opacity:1; transform:none; } }
-@media (max-width:520px){ .story-shell{ height:100vh; max-width:100%; border-radius:0; } }
+@media (max-width:520px){
+  .story-overlay{ padding:0; }
+  .story-shell{ height:100vh; max-height:100vh; max-width:100%; border-radius:0; }
+  @supports (height:100dvh){ .story-shell{ height:100dvh; max-height:100dvh; } }
+}
 
 /* ============== QUOTE FORM SECTION ============== */
 .quote-section{ margin-top:26px; background:var(--bg); border:1px solid var(--line); border-radius:var(--r-lg); padding:38px; box-shadow:var(--shadow-sm); }
@@ -687,7 +691,7 @@ footer{ background:#0b0f15; color:rgba(255,255,255,0.7); padding:50px 0 26px; }
           <button class="lnk" data-target="contact">Get in touch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         </div>
         <div class="svc-card reveal" data-service="water">
-          <div class="thumb iconthumb" style="background:linear-gradient(135deg,#0ea5a4,#2f6fed);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" style="width:44px;height:44px;opacity:.9;"><path d="M12 2v4M12 18v4M4 12H2M22 12h-2"/><circle cx="12" cy="12" r="6"/></svg><span class="storytag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 3v18l7-4 7 4V3"/></svg>View Story</span></div>
+          <div class="thumb"><img src="assets/services/water-pumps.jpg" alt="Water pump and plumbing systems" loading="lazy"><span class="storytag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 3v18l7-4 7 4V3"/></svg>View Story</span></div>
           <div class="icwrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4 12H2M22 12h-2"/><circle cx="12" cy="12" r="6"/></svg></div>
           <h3>4. Water Pump &amp; Plumbing Solutions</h3>
           <ul>
@@ -701,7 +705,7 @@ footer{ background:#0b0f15; color:rgba(255,255,255,0.7); padding:50px 0 26px; }
           <button class="lnk" data-target="contact">Get in touch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         </div>
         <div class="svc-card reveal" data-service="software">
-          <div class="thumb iconthumb" style="background:linear-gradient(135deg,#2f6fed,#12224a);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" style="width:44px;height:44px;opacity:.9;"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><span class="storytag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 3v18l7-4 7 4V3"/></svg>View Story</span></div>
+          <div class="thumb"><img src="assets/services/software-dashboard.jpg" alt="Software and digital solutions dashboard" loading="lazy"><span class="storytag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 3v18l7-4 7 4V3"/></svg>View Story</span></div>
           <div class="icwrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
           <h3>5. Software &amp; Digital Solutions</h3>
           <p style="font-size:12.5px; color:var(--ink-dim); margin:-6px 0 10px;">Helping businesses become smarter and more connected.</p>
@@ -718,7 +722,7 @@ footer{ background:#0b0f15; color:rgba(255,255,255,0.7); padding:50px 0 26px; }
           <button class="lnk" data-target="contact">Get in touch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         </div>
         <div class="svc-card reveal" data-service="branding">
-          <div class="thumb iconthumb" style="background:linear-gradient(135deg,#e8952f,#0ea5a4);"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" style="width:44px;height:44px;opacity:.9;"><path d="M12 19l7-7 3 3-7 7-3-3Z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5Z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg><span class="storytag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 3v18l7-4 7 4V3"/></svg>View Story</span></div>
+          <div class="thumb"><img src="assets/services/branding-mindmap.png" alt="Branding and creative services" loading="lazy"><span class="storytag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 3v18l7-4 7 4V3"/></svg>View Story</span></div>
           <div class="icwrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3Z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5Z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div>
           <h3>6. Branding &amp; Creative Services</h3>
           <p style="font-size:12.5px; color:var(--ink-dim); margin:-6px 0 10px;">Building professional business identities.</p>
@@ -1165,7 +1169,7 @@ var SERVICES_DATA = {
     title:'Water Pump & Plumbing Solutions', tagline:'Keeping water flowing, reliably', icon:ICONS.water,
     badges:['Boreholes','Solar Pumping','Repairs & Servicing'],
     overview:'From borehole pumps to solar-powered water systems, we install and maintain the equipment that keeps water reliably reaching homes, farms, and facilities.',
-    media:[{type:'icon', icon:ICONS.water, bg:'linear-gradient(135deg,#0ea5a4,#2f6fed)'}],
+    media:[{type:'image', src:'assets/services/water-pumps.jpg'}, {type:'icon', icon:ICONS.water, bg:'linear-gradient(135deg,#0ea5a4,#2f6fed)'}],
     list:['Water pump installation','Borehole pump systems','Solar pumping solutions','Pump repairs and servicing','Water system maintenance','Plumbing support services'],
     ctaBody:'Dealing with a pump issue or planning a new borehole system? Let us know what you need.'
   },
@@ -1173,7 +1177,7 @@ var SERVICES_DATA = {
     title:'Software & Digital Solutions', tagline:'Helping businesses become smarter and more connected', icon:ICONS.software,
     badges:['Web','Mobile Apps','Custom Systems'],
     overview:'Our development team builds websites, mobile apps, and business management systems that help Zambian businesses run smarter — from first concept through to launch and ongoing support.',
-    media:[{type:'icon', icon:ICONS.software, bg:'linear-gradient(135deg,#2f6fed,#12224a)'}],
+    media:[{type:'image', src:'assets/services/software-dashboard.jpg'}, {type:'icon', icon:ICONS.software, bg:'linear-gradient(135deg,#2f6fed,#12224a)'}],
     list:['Business website development','Company profile websites','Portfolio websites','Mobile application development','Custom software solutions','Business management systems','Software installation and support','Digital transformation solutions'],
     ctaBody:'Have an app or website idea? Tell us about your business and goals.'
   },
@@ -1181,7 +1185,7 @@ var SERVICES_DATA = {
     title:'Branding & Creative Services', tagline:'Building professional business identities', icon:ICONS.branding,
     badges:['Logo Design','Print','Social Media','Workwear'],
     overview:'We help businesses look as professional as the work they do — from logo design and branding to print materials, social media graphics, and branded workwear.',
-    media:[{type:'icon', icon:ICONS.branding, bg:'linear-gradient(135deg,#e8952f,#0ea5a4)'}],
+    media:[{type:'image', src:'assets/services/branding-mindmap.png'}, {type:'icon', icon:ICONS.branding, bg:'linear-gradient(135deg,#e8952f,#0ea5a4)'}],
     list:['Company logo design','Corporate branding','Business cards','Flyers and brochures','Posters and banners','Social media designs','Branded workwear — caps, T-shirts, corporate clothing'],
     ctaBody:'Ready to give your business a professional identity? Share your vision with us.'
   },

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "substation-panel",
+    "cat": "automation",
+    "tag": "Automation",
+    "tagClass": "blue",
+    "title": "Substation Control Panel Upgrade",
+    "short": "PLC-based control panel retrofit for a Copperbelt mining site.",
+    "full": "Designed and installed a new PLC-based control and protection panel for a substation on a Copperbelt mining site, replacing aging relay logic with a modern, monitored control system to improve reliability and reduce downtime.",
+    "tech": ["PLC", "Control Panels", "Protection Relays"],
+    "role": "Engineering"
+  },
+  {
+    "id": "warehouse-solar",
+    "cat": "energy",
+    "tag": "Renewable Energy",
+    "tagClass": "teal",
+    "title": "Warehouse Solar Hybrid System",
+    "short": "Rooftop solar and battery hybrid system for a logistics warehouse.",
+    "full": "Designed and installed a rooftop solar PV and battery hybrid system for a logistics warehouse, cutting grid dependence and providing backup power during outages, with remote monitoring for performance tracking.",
+    "tech": ["Solar PV", "Battery Storage", "Hybrid Inverters"],
+    "role": "Design & Install"
+  },
+  {
+    "id": "campus-cctv",
+    "cat": "security",
+    "tag": "Security Systems",
+    "tagClass": "amber",
+    "title": "Corporate Campus CCTV & Access Control",
+    "short": "Multi-building surveillance and access control network.",
+    "full": "Deployed an integrated CCTV and access control network across a multi-building corporate campus, including structured cabling, centralized video management, and card-based access control at key entry points.",
+    "tech": ["CCTV", "Access Control", "Structured Cabling"],
+    "role": "Installation"
+  },
+  {
+    "id": "water-scada",
+    "cat": "automation",
+    "tag": "Automation",
+    "tagClass": "blue",
+    "title": "SCADA Integration for Water Treatment",
+    "short": "Remote monitoring of pumps and valves at a treatment plant.",
+    "full": "Integrated a SCADA monitoring layer over existing pump and valve control systems at a water treatment facility, giving operators real-time visibility and alarms from a central control room.",
+    "tech": ["SCADA", "Instrumentation", "Networking"],
+    "role": "Automation"
+  },
+  {
+    "id": "network-rollout",
+    "cat": "network",
+    "tag": "Network Solutions",
+    "tagClass": "teal",
+    "title": "Structured Network Rollout",
+    "short": "Office fibre and LAN backbone for a regional distributor.",
+    "full": "Rolled out a structured fibre and LAN backbone for a regional distributor's head office, including switch configuration, wireless coverage, and a hardened network setup to support growing IT needs.",
+    "tech": ["Structured Cabling", "LAN/WAN", "IT Infrastructure"],
+    "role": "Technology"
+  },
+  {
+    "id": "conveyor-vfd",
+    "cat": "automation",
+    "tag": "Automation",
+    "tagClass": "blue",
+    "title": "Conveyor Motor Control Retrofit",
+    "short": "VFD retrofit reducing energy usage at a processing plant.",
+    "full": "Retrofitted conveyor motor control with variable frequency drives at a processing plant, reducing energy consumption and mechanical wear while improving start-up control and fault diagnostics.",
+    "tech": ["VFDs", "Motor Control", "Energy Efficiency"],
+    "role": "Engineering"
+  },
+  {
+    "id": "residential-rewire",
+    "cat": "electrical",
+    "tag": "Electrical Engineering",
+    "tagClass": "amber",
+    "title": "Residential Rewiring & Distribution Upgrade",
+    "short": "Full rewire and distribution board upgrade for a family home.",
+    "full": "Carried out a complete rewiring and distribution board upgrade for a residential property, including new lighting and power circuits, safety earthing, and a full electrical inspection and compliance certificate.",
+    "tech": ["Wiring", "Distribution Boards", "Safety Inspection"],
+    "role": "Electrical"
+  },
+  {
+    "id": "borehole-pump",
+    "cat": "water",
+    "tag": "Water Pump Solutions",
+    "tagClass": "teal",
+    "title": "Solar Borehole Pumping System",
+    "short": "Solar-powered borehole pump installation for a rural facility.",
+    "full": "Installed a solar-powered borehole pumping system to supply reliable water for a rural facility, including pump sizing, solar array installation, and integration with an elevated storage tank.",
+    "tech": ["Borehole Pumps", "Solar Pumping", "Water Systems"],
+    "role": "Design & Install"
+  },
+  {
+    "id": "company-website",
+    "cat": "software",
+    "tag": "Software & Digital",
+    "tagClass": "blue",
+    "title": "Corporate Website & Company Profile Platform",
+    "short": "Company profile website with an integrated careers and portfolio system.",
+    "full": "Designed and built a company profile website with dynamic careers and portfolio sections, allowing the client to update open positions and project case studies without touching the site's code.",
+    "tech": ["Web Development", "UI/UX Design", "Content Systems"],
+    "role": "Software"
+  },
+  {
+    "id": "brand-identity",
+    "cat": "branding",
+    "tag": "Branding & Creative",
+    "tagClass": "amber",
+    "title": "Corporate Brand Identity Package",
+    "short": "Logo, stationery, and branded workwear for a growing SME.",
+    "full": "Developed a full corporate identity package for a growing SME, including logo design, business cards, letterheads, social media templates, and branded workwear for field staff.",
+    "tech": ["Logo Design", "Branding", "Print & Workwear"],
+    "role": "Creative"
+  }
+]
